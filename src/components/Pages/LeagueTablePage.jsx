@@ -25,7 +25,7 @@ export const LeagueTablePage = () => {
       const resp = await fetch(url, options);
       const data = await resp.json();
       console.log(data);
-      setNewData(data.equipos); // Asignar los datos de los equipos a newData
+      setNewData(data.equipos); 
     }
 
     fetchData();
